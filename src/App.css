@@ -2,8 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-logo-container {
+  display: flex;
+  flex-direction: row;  
+}
+
+.App-logo-1 {
+  fill:red;
+}
+
+.App-logo-2 {
+  fill:blue;
+}
+
+.App-logo-3 {
+  fill:purple;
 }
 
 .App-header {
