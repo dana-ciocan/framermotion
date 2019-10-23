@@ -4,18 +4,24 @@
 
 .App-logo-container {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .App-logo-1 {
+  width: 15em;
   fill:red;
 }
 
 .App-logo-2 {
+  width: 15em;
   fill:blue;
 }
 
 .App-logo-3 {
+  width: 15em;
   fill:purple;
 }
 
