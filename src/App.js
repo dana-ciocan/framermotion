@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <motion.div animate={{ rotate: 360 }} transition={{ duration: 2 }}>
+          <img src={logo} className="App-logo" alt="logo" />
+        </motion.div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
